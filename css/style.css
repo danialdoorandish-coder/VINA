@@ -1,3 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
 body{
+
+    background:#0E0E0E;
+
+    color:#F5F5F2;
+
+    font-family:'Vazirmatn',sans-serif;
+
+    line-height:1.9;
+
+}
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:40px;
+
+    background:linear-gradient(180deg,#0E0E0E,#1A1A1A);
+
+}
+
+.hero-content{
+
+    max-width:700px;
+
+}
+
+.brand{
+
+    font-size:18px;
+
+    letter-spacing:8px;
+
+    color:#B08D57;
+
+    margin-bottom:25px;
+
+}
+
+h1{
+
+    font-size:56px;
+
+    font-weight:300;
+
+    margin-bottom:25px;
+
+}
+
+.tagline{
+
+    font-size:22px;
+
+    color:#d7d7d7;
+
+    margin-bottom:60px;
+
+}
+
+.discover{
+
+    display:inline-block;
+
+    padding:16px 40px;
+
+    border:1px solid #B08D57;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.35s;
+
+}
+
+.discover:hover{
+
+    background:#B08D57;
+
+    color:black;
 
 }
